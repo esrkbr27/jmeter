@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="606" it="0" lt="601" ct="406" ts="1701940754086" s="true" lb="Login-1" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="972" sc="1" ec="0" ng="0" na="0" hn="WS-ESRA">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: openresty
+Date: Thu, 07 Dec 2023 09:19:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 696
+Connection: close
+Strict-Transport-Security: max-age=63072000;includeSubDomains; preload
+X-Served-By: bekservicealpha.kartega.com
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer ff9655dbd0b7f14469999a9d3c73446a0ee2981e2ac287aa2b614f9582a2baf6
+Postman-Token: 2c0e8f61-6766-4136-aaac-fd7fecab387f
+Host: bekservicealpha.kartega.com
+Content-Type: application/json
+AppKey: 9df76e7a-94a2-42f1-9303-f4883464a0e4
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.35.0
+Accept: */*
+Content-Length: 93
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;$id&quot;:&quot;1&quot;,&quot;data&quot;:{&quot;email&quot;:&quot;merveclik3454@icloud.com&quot;,&quot;username&quot;:&quot;test.kocaeli&quot;},&quot;performance&quot;:{&quot;$id&quot;:&quot;2&quot;,&quot;queryCount&quot;:0,&quot;sqlLogs&quot;:[],&quot;entityLoadLogs&quot;:[],&quot;startDate&quot;:&quot;2023-12-07T09:19:14.9128998+00:00&quot;,&quot;endDate&quot;:&quot;2023-12-07T09:19:15.0109632+00:00&quot;,&quot;duration&quot;:98.0712},&quot;encryptedData&quot;:null,&quot;extraData&quot;:{},&quot;messages&quot;:[],&quot;token&quot;:&quot;Y4JCYN0gI6Mjc1YYPQ1MT4SYChzeWv1B9vaZGswl0el6BxpvMp2CN64YWKb03i5o3Es/ys5Rtuse9XLayb3b51rInRg794eMnXdWQS/IavbnhxnrCtY/MOdRrPpgysC7momAol3xQGutXbFAzWtp7cS6dGVdTwIFlw05Lnkrsv7erdqnBcnYZlrInRg794eMSC58RecBPfOnqtRtcSlRjzebUPmoA66d3xvH28Z8Vca3hpRtAxRekeLP6BAG9cWl2FP2TJTVqZFh+0vlfMtspJJAGw/w/pBX&quot;,&quot;appID&quot;:null,&quot;hasFailed&quot;:false,&quot;closePopup&quot;:false,&quot;isRetrievedFromCache&quot;:false}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;data&quot;: {&#xd;
+        &quot;Username&quot;: &quot;test.kocaeli&quot;,&#xd;
+        &quot;Password&quot;: &quot;123123&quot;&#xd;
+    }&#xd;
+}</queryString>
+  <java.net.URL>https://bekservicealpha.kartega.com/api/uye/Login</java.net.URL>
+</httpSample>
+
+</testResults>
